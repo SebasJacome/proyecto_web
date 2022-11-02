@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin-left: 1%;
+}
+
+.usuario-header{
+    width: 100%;
+}
+
+.imagen{
+    
+}
+.usuario-botones{
+    width: 30%;
+    float: left;
+    margin-top: 5%;
+    
+}
+.usuario-informacion{
+    width: 50%;
+    float: right;
+    margin-right: 10%;
+}

@@ -4,15 +4,75 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>pickUP</title>
+	<title>pickUP</title>	
+	<link href="https://cdn.jsdelivr.net/npm/daisyui@2.38.0/dist/full.css" rel="stylesheet" type="text/css" />
+	<script src="https://cdn.tailwindcss.com"></script>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
     <section class = "seccion-usuario-perfil">
 		<div class = "usuario-header">
-			<div class="usuario-avatar">
-				<img src="" alt="img-avatar">
+			<div class="avatar">
+				
+				<div class="w-24 rounded-full">
+					<img src="https://play-lh.googleusercontent.com/8ddL1kuoNUB5vUvgDVjYY3_6HwQcrg1K2fd_R8soD-e2QYj8fT9cfhfh3G0hnSruLKec" />
+				</div>
+				
+			</div>
+			<div class="usuario-nombre">
+				Sebastián Arturo Jácome Herrera!
 			</div>
 		</div>
+		<div class="usuario-body">
+			<div class="usuario-botones">
+				<div class="btn-group btn-group-vertical">
+					<button class="btn btn-active">Perfil</button>
+					<button class="btn">Configuración</button>
+					<button class="btn">Customización</button>
+					<button class="btn">Contraseña</button>	
+				  </div>
+			</div>
+			<div class="usuario-informacion">
+				<div class="form-control w-full max-w-xs">
+					<label class="label">
+					  <span class="label-text">Usuario</span>
+					</label>
+					<input type="text" placeholder="" value = "betocraftpro14" class="input input-bordered w-full max-w-xs" readonly/>
+					<label class="label">
+					  
+					</label>
+				</div>
+				<div class="form-control w-full max-w-xs">
+					<label class="label">
+					  <span class="label-text">Correo Electrónico</span>
+					</label>
+					<input type="email" placeholder="" value = "usuario@gmail.com" class="input input-bordered w-full max-w-xs" readonly/>
+					<label class="label">
+					  
+					</label>
+				</div>
+				<div class="form-control w-full max-w-xs">
+					<label class="label">
+					  <span class="label-text">Teléfono</span>
+					</label>
+					<input type="text" placeholder="" value = "551234567" class="input input-bordered w-full max-w-xs" readonly/>
+					<label class="label">
+					  
+					</label>
+				</div>
+				<div class="form-control w-full max-w-xs">
+					<label class="label">
+					  <span class="label-text">Dirección</span>
+					</label>
+					<input type="text" placeholder="" value = "Mier y Pesado 14" class="input input-bordered w-full max-w-xs" readonly/>
+					<label class="label">
+					  
+					</label>
+				</div>
+				
+			</div>
+		</div>
+
     </section>
 </body>
 </html>
